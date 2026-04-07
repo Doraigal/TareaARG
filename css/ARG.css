@@ -1,0 +1,240 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a :hover {
+    color: #74c92d;
+    text-decoration: underline;
+}
+
+h2 
+{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+h3
+{
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: blue;
+}
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background: green;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+header #About
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+header #About .img1
+{
+    flex: 2;
+}
+
+header #About .img2
+{
+    flex: 1;
+}
+
+header #About img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+*#Principal
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    background: orange;
+    align-items: stretch;
+    text-align: center;
+}
+
+header #Principal img
+{
+    flex: 1;
+    max-width: 100px;
+    max-height: 70px;
+}
+
+#Principal .P-navegador
+{
+    flex: 1;
+    align-items: center;
+    padding: 15px;
+}
+
+#Principal .P-navegador .P-list
+{
+    justify-content: end;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#Principal .P-navegador .P-list .P-item a
+{
+    color: blue;
+    font-weight: 500;
+    transition: color 0.3s;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#Principal .P-navegador .P-list .P-item a:hover
+{
+    color:red;
+    text-decoration: underline;
+}
+
+#Aside-main
+{
+    display: flex;
+    flex-direction: row;
+    background: #E0E0E0;
+    color: black;
+    padding: 10px 10px 10px;
+    gap: 10px;
+}
+
+#Aside-main .AsideMain article
+{
+    margin: 60px;
+}
+#Aside-main .Main article
+{
+    margin: 60px;
+}
+#Aside-main .AsideMain b
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 50px;
+}
+
+#Main
+{
+    margin: 60px;
+}
+
+#Aside-main .Main b
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 50px;
+}
+
+#Proyect
+{
+    background: #E0E0E0;
+}
+#Proyect .Pro-List
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#Proyect .Pro-List .Pro-item
+{
+    flex: 0 0 calc(25%);
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+#Proyect .Pro-List .Pro-item img
+{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#Proyect .Pro-List .Pro-item:hover {
+    transform: translateY(-5px);
+}
+footer
+{
+    background: black;
+}
+
+#FooterPag .Foo-list
+{
+    display: flex;
+list-style: none;
+}
+
+#FooterPag .Foo-list .Foo-item
+{
+    flex: 0 0 calc(33.33%);
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#FooterPag .Foo-list .Foo-item a
+{
+    color: white;
+}
+
+@media (max-width: 600px)
+{
+    header #About
+{
+    flex-direction: column;
+}
+#Aside-main
+{
+    flex-direction: column;
+}
+#Proyect .Pro-List
+{
+    flex-direction: column;
+}
+#FooterPag .Foo-list
+{
+    flex-direction: column;
+}
+
+}
