@@ -26,10 +26,33 @@ a :hover {
     text-decoration: underline;
 }
 
+
 .logo
 {
     width: 80px;
     height: 40px;
+}
+
+.bg-aSuave
+{
+    background: #1E3A8A;
+}
+
+.bg-gSuave
+{
+    background: #F3F4F6;
+}
+
+.bg-vSuave
+{
+    background: #34D399;
+}
+
+#Aside-main
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 /*
 h2 
