@@ -11,7 +11,7 @@ html
 body
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
+    color: #333333;
     min-height: 100vh;
     min-height: 100dvh;
 }
@@ -19,6 +19,13 @@ body
 img {
     max-width: 100%;
     height: auto;
+}
+
+main
+{
+    min-height: 100vh;
+    min-height: 100dvh;
+    background-color: #E0E0E0;
 }
 
 a :hover {
@@ -48,11 +55,19 @@ a :hover {
     background: #34D399;
 }
 
-#Aside-main
+#DiseñosUnicos
 {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+.Fusion
+{
+    width: 80%;
+    height: 400px;
+    object-fit: fill;
+    border-radius: 10%;
 }
 /*
 h2 
