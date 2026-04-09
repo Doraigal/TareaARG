@@ -55,19 +55,35 @@ a :hover {
     background: #34D399;
 }
 
-#DiseñosUnicos
+#DiseñosUnicos,
+#Proyect
 {
     max-width: 1600px;
     margin: 0 auto;
     margin-top: 20px;
 }
 
-.Fusion
+.Fusion,
+.Diseño
 {
     width: 80%;
     height: 400px;
     object-fit: fill;
     border-radius: 10%;
+}
+.proyectos
+{
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 10%;
+}
+
+.cartas
+{
+    list-style: none;
+    max-width: 20%;
+    margin-right: 10px;
 }
 /*
 h2 
