@@ -27,4 +27,7 @@ $(document).ready(function () {
   $(".copaMitsubishi").click(function () {
     $(".vCopaMitsubishi").fadeToggle("slow");
   });
+  $(".copaMitsubishi").click(function () {
+    $(".vCopaMitsubishi").fadeToggle("slow");
+  });
 });
