@@ -1,0 +1,21 @@
+{
+    "proyectos": [
+        {
+            "nombre": "Impresiones personalizadas",
+            "imagen": "img/personalizadas.jpg"
+        },
+        {
+            "nombre": "Grabado Laser",
+            "imagen": "img/grabadoLaser.jpg"
+        },
+        {
+            "nombre": "impresiones 3D",
+            "imagen": "img/impresiones3D.jpg"
+        },
+        {
+            "nombre": "Corte Laser",
+            "imagen": "img/Falcon.jpg"
+        }
+    ]
+
+}
