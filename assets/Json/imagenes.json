@@ -2,7 +2,7 @@
     "proyectos": [
         {
             "nombre": "Impresiones personalizadas",
-            "imagen": "img/Personalizadas.jpg"
+            "imagen": "img/Personalizados.jpg"
         },
         {
             "nombre": "Grabado Laser",
@@ -10,7 +10,7 @@
         },
         {
             "nombre": "impresiones 3D",
-            "imagen": "img/impresion3D.jpg"
+            "imagen": "img/impresion3D.jpeg"
         },
         {
             "nombre": "Corte Laser",
