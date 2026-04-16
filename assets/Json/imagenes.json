@@ -16,6 +16,18 @@
             "nombre": "Corte Laser",
             "imagen": "img/Falcon.jpg"
         }
+    ],
+
+    "diseñosUnicos": [
+        {
+            "imagen": "img/capturaFusion.png"
+        },
+        {
+            "imagen": "img/capturaFusion2.png"
+        },
+        {
+            "imagen": "img/capturaFusion3.png"
+        }
     ]
 
 }
