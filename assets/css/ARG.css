@@ -16,6 +16,11 @@ body
     min-height: 100dvh;
 }
 
+#FooterPag img
+{
+    width: auto;
+    height: 150px;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -57,14 +62,13 @@ a :hover {
 
 #Proyect
 {
-    max-width: 1600px;
+    max-width: auto ;
     margin: 0 auto;
     margin-top: 20px;
 }
 
 .fMain{
-    max-width: 1600px;
-    margin: 0 auto;
+    max-width: 100%;
     margin-top: 20px;
 }
 
