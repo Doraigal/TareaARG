@@ -3,7 +3,7 @@ $(document).ready(function () {
         function (data) {
             $.each(data.proyectos, function (i, proyectos) {
                 $(".serProyectos").append(`
-                         <div class="cartas col-md-4 mb-5 card">
+                         <div class="cartas col-md-3 mb-5 card">
                         <img src="${proyectos.imagen}" alt="${proyectos.nombre}" class="proyectos card-img"></img>
                             <b class="card-body">
                                 ${proyectos.nombre}
