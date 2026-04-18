@@ -8,7 +8,8 @@ $(document).ready(function () {
                             <b class="card-body">
                                 ${proyectos.nombre}
                             </b>
-                            <button class="btn btn-primary card-footer p-0 m-0">Solicitar</button>
+                            <button class="btn btn-primary card-footer p-0 m-0" type="button"
+                             data-bs-toggle="modal" data-bs-target="#myModal">Solicitar</button>
                     </div>
                 `);
             });
