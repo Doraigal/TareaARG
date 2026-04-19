@@ -5,10 +5,10 @@ $(document).ready(function () {
                 $(".serProyectos").append(`
                          <div class="cartas col-md-3 mx-3 card m-0 p-0">
                         <img src="${proyectos.imagen}" alt="${proyectos.nombre}" class="proyectos card-img"></img>
-                            <b class="card-body">
+                            <b class="card-body titulo">
                                 ${proyectos.nombre}
                             </b>
-                            <button class="btn btn-primary card-footer p-0 m-0" type="button"
+                            <button class="btnComando btn btn-primary card-footer p-0 m-0" type="button"
                              data-bs-toggle="modal" data-bs-target="#myModal">Solicitar</button>
                     </div>
                 `);

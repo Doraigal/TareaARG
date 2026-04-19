@@ -28,6 +28,25 @@
         {
             "imagen": "img/capturaFusion3.png"
         }
+    ],
+    "Galeria":
+    [
+        {
+            "nombre": "Impresiones personalizadas",
+            "imagen": "img/Personalizados.png"
+        },
+        {
+            "nombre": "Grabado Laser",
+            "imagen": "img/grabadoLaser.jpg"
+        },
+        {
+            "nombre": "impresiones 3D",
+            "imagen": "img/impresion3D.jpeg"
+        },
+        {
+            "nombre": "Corte Laser",
+            "imagen": "img/Falcon.jpg"
+        }
     ]
 
 }
