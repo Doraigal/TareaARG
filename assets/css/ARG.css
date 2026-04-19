@@ -113,15 +113,6 @@ p {
     width: 100%;
     height: 400px;
 }
-
-gmp-map {
-    height: 100%;
-  }
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
 /*
 h2 
 {
