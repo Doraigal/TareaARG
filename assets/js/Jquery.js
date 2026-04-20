@@ -27,4 +27,13 @@ $(document).ready(function () {
   $(".copaMitsubishi").click(function () {
     $(".vCopaMitsubishi").fadeToggle("slow");
   });
+  $(".carta").hover(function () {
+    $(this).find(".cartas").css({
+      "top": "-5px", "position": "relative"
+    });
+  }, function () {
+    $(this).find(".cartas").css({
+      "top": "0px", "position": "relative"
+    });
+  });
 });

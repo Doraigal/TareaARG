@@ -3,7 +3,7 @@ $(document).ready(function () {
         function (data) {
             $.each(data.Galeria, function (i, Galeria) {
                 $(".Galeria").append(`
-                    <div class="col-md-4 mt-3 d-flex justify-content-center">
+                    <div class="container-fluid carta col-md-4 mt-3 d-flex justify-content-center">
                          <div class="cartas card m-0 p-0">
                         <img src="${Galeria.imagen}" alt="${Galeria.nombre}" class="card-img-top proyectos card-img"></img>
                             <b class="card-body">
