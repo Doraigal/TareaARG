@@ -21,7 +21,8 @@
                     data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="collapsibleNavbar" class="collapse navbar-collapse col-md-6 container-fluid justify-content-end">
+                <div id="collapsibleNavbar"
+                    class="collapse navbar-collapse col-md-6 container-fluid justify-content-end">
                     <ul class="navbar-nav justify-content-end">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="Galeria.html">Galeria</a></li>
@@ -56,7 +57,7 @@
                             <form id="contact-form">
                                 <input type="hidden" name="time" value="Mar 10 2025 08:46">
                                 <!-- To simplify the tutorial, the value is static. -->
-                                 <div class="row mx-2 mb-2">
+                                <div class="row mx-2 mb-2">
                                     <label class="col-md-2">Subject</label>
                                     <input class="col-md-10 titul" type="text" name="title" required>
                                 </div>
@@ -73,7 +74,7 @@
                                     <textarea name="message" required></textarea>
                                 </div>
                                 <div class="row mx-2 mb-2">
-                                    <input  type="submit" value="Send">
+                                    <input type="submit" value="Send">
                                 </div>
                             </form>
                         </form>
@@ -128,18 +129,18 @@
             </div>
         </div>
     </footer>
-     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             // https://dashboard.emailjs.com/admin/account
             emailjs.init({
-              publicKey: "qBQ_RFGdc6rGua3qt",
+                publicKey: "qBQ_RFGdc6rGua3qt",
             });
         })();
     </script>
     <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
                 event.preventDefault();
                 // these IDs from the previous steps
                 emailjs.sendForm('service_0e9e9yq', 'template_u0no3hd', this)
