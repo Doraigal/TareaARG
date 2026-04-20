@@ -32,16 +32,44 @@
     "Galeria":
     [
         {
-            "nombre": "Impresiones personalizadas",
-            "imagen": "img/Personalizados.png"
+            "nombre": "Grabado Laser",
+            "imagen": "img/galeria/GrabadoLaserLlavero.jpeg"
         },
         {
             "nombre": "Grabado Laser",
-            "imagen": "img/grabadoLaser.jpg"
+            "imagen": "img/galeria/llaveroGrabadoLaser.jpeg"
         },
         {
-            "nombre": "impresiones 3D",
-            "imagen": "img/impresion3D.jpeg"
+            "nombre": "Grabado Laser",
+            "imagen": "img/galeria/llaveroGrabadoLaser2.jpeg"
+        },
+        {
+            "nombre": "Impresion 3D",
+            "imagen": "img/galeria/AdornoPc.jpeg"
+        },
+        {
+            "nombre": "Corte Laser",
+            "imagen": "img/Falcon.jpg"
+        },
+        {
+            "nombre": "Corte Laser",
+            "imagen": "img/Falcon.jpg"
+        },
+        {
+            "nombre": "Corte Laser",
+            "imagen": "img/Falcon.jpg"
+        },
+        {
+            "nombre": "Corte Laser",
+            "imagen": "img/Falcon.jpg"
+        },
+        {
+            "nombre": "Corte Laser",
+            "imagen": "img/Falcon.jpg"
+        },
+        {
+            "nombre": "Corte Laser",
+            "imagen": "img/Falcon.jpg"
         },
         {
             "nombre": "Corte Laser",

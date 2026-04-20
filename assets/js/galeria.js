@@ -3,11 +3,13 @@ $(document).ready(function () {
         function (data) {
             $.each(data.Galeria, function (i, Galeria) {
                 $(".Galeria").append(`
-                         <div class="cartas col-md-3 mx-3 card m-0 p-0">
-                        <img src="${Galeria.imagen}" alt="${Galeria.nombre}" class="proyectos card-img"></img>
+                    <div class="col-md-3 d-flex justify-content-center">
+                         <div class="cartas card m-0 p-0">
+                        <img src="${Galeria.imagen}" alt="${Galeria.nombre}" class="card-img-top proyectos card-img"></img>
                             <b class="card-body">
                                 ${Galeria.nombre}
                             </b>
+                        </div>
                     </div>
                 `);
             });
