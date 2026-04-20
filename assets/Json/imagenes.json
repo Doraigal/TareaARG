@@ -48,32 +48,32 @@
             "imagen": "img/galeria/AdornoPc.jpeg"
         },
         {
-            "nombre": "Corte Laser",
-            "imagen": "img/Falcon.jpg"
+            "nombre": "Impresion 3D",
+            "imagen": "img/galeria/AdornoVentiladores.jpeg"
+        },
+        {
+            "nombre":"Impresion 3D",
+            "imagen": "img/galeria/Copa.jpeg"
         },
         {
             "nombre": "Corte Laser",
-            "imagen": "img/Falcon.jpg"
+            "imagen": "img/galeria/LlaveroN.jpeg"
         },
         {
-            "nombre": "Corte Laser",
-            "imagen": "img/Falcon.jpg"
+            "nombre": "Impresion 3D",
+            "imagen": "img/galeria/CocaColaLlavero.jpeg"
         },
         {
-            "nombre": "Corte Laser",
-            "imagen": "img/Falcon.jpg"
+            "nombre": "Impresion 3D",
+            "imagen": "img/galeria/Headset"
         },
         {
-            "nombre": "Corte Laser",
-            "imagen": "img/Falcon.jpg"
+            "nombre": "Impresion 3D",
+            "imagen": "img/galeria/Patricio.jpeg"
         },
         {
-            "nombre": "Corte Laser",
-            "imagen": "img/Falcon.jpg"
-        },
-        {
-            "nombre": "Corte Laser",
-            "imagen": "img/Falcon.jpg"
+            "nombre": "Impresion 3D",
+            "imagen": "img/galeria/BodEsponja.jpeg"
         }
     ]
 
