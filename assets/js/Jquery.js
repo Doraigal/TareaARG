@@ -1,4 +1,13 @@
 $(document).ready(function () {
+  $("a[href^='#']").on("click", function(event) {
+  event.preventDefault();
+
+  const destino = $(this).attr("href");
+  $("html, body").animate({
+    scrollTop: $(destino).offset().top
+  }, 600); // 600 ms = velocidad de la animación
+});
+
   $(".portaHeadset").hover(function () {
     $(".portaHeadset").css({
       "background-color": "#00FF00",

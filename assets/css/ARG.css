@@ -87,13 +87,18 @@
      margin-right: 10px;
      min-height: 300px;
      position: relative;
-     transition: top 0.2s ease;
+     transition: top 0.2s ease, box-shadow 0.2s ease;
      /* animación suave */
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+     /* sombra inicial */
+
 
  }
+
  .carta:hover .cartas {
-  top: -5px;
-}
+     top: -5px;
+     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+ }
 
 
  p {
