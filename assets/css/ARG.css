@@ -90,9 +90,10 @@ a :hover {
 
 .cartas
 {
-    list-style: none;
-    max-width: 20%;
+    min-width: 60%;
+    max-width: 80%;
     margin-right: 10px;
+    min-height: 300px;
 }
 
 p {
