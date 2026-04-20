@@ -45,7 +45,7 @@
         },
         {
             "nombre": "Impresion 3D",
-            "imagen": "img/galeria/AdornoPc.jpeg"
+            "imagen": "img/galeria/AdornosPc.jpeg"
         },
         {
             "nombre": "Impresion 3D",
@@ -74,6 +74,18 @@
         {
             "nombre": "Impresion 3D",
             "imagen": "img/galeria/BodEsponja.jpeg"
+        },
+        {
+            "nombre": "Impresion 3D",
+            "imagen": "img/galeria/pChan.jpeg"
+        },
+        {
+            "nombre": "Impresion 3D",
+            "imagen": "img/galeria/Caja.jpeg"
+        },
+        {
+            "nombre": "Impresion 3D",
+            "imagen": "img/galeria/cajaPersonalizada.jpeg"
         }
     ]
 
